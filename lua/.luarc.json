@@ -1,0 +1,30 @@
+{
+    "workspace.library": [
+        "/Users/aryan.raj/.config/nvim",
+        "/Users/aryan.raj/.local/share/nvim/site",
+        "/Users/aryan.raj/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
+        "/Users/aryan.raj/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
+        "/Users/aryan.raj/.local/share/nvim/site/pack/packer/start/copilot.vim",
+        "/Users/aryan.raj/.local/share/nvim/site/pack/packer/start/friendly-snippets",
+        "/Users/aryan.raj/.local/share/nvim/site/pack/packer/start/gruvbox.nvim",
+        "/Users/aryan.raj/.local/share/nvim/site/pack/packer/start/lualine.nvim",
+        "/Users/aryan.raj/.local/share/nvim/site/pack/packer/start/LuaSnip",
+        "/Users/aryan.raj/.local/share/nvim/site/pack/packer/start/mason-lspconfig.nvim",
+        "/Users/aryan.raj/.local/share/nvim/site/pack/packer/start/mason.nvim",
+        "/Users/aryan.raj/.local/share/nvim/site/pack/packer/start/nvim-cmp",
+        "/Users/aryan.raj/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
+        "/Users/aryan.raj/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
+        "/Users/aryan.raj/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
+        "/Users/aryan.raj/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
+        "/Users/aryan.raj/.local/share/nvim/site/pack/packer/start/packer.nvim",
+        "/Users/aryan.raj/.local/share/nvim/site/pack/packer/start/plenary.nvim",
+        "/Users/aryan.raj/.local/share/nvim/site/pack/packer/start/telescope.nvim",
+        "/opt/homebrew/Cellar/neovim/0.9.1/share/nvim/runtime",
+        "/opt/homebrew/Cellar/neovim/0.9.1/share/nvim/runtime/pack/dist/opt/matchit",
+        "/opt/homebrew/Cellar/neovim/0.9.1/lib/nvim",
+        "/Users/aryan.raj/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp/after",
+        "/Users/aryan.raj/.local/share/nvim/site/pack/packer/start/cmp_luasnip/after",
+        "${3rd}/luassert/library",
+        "${3rd}/luv/library"
+    ]
+}
