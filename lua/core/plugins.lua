@@ -39,6 +39,7 @@ return require('packer').startup(function(use)
 
   -- Github Copilot
   -- use 'github/copilot.vim'
+  use 'TabbyML/vim-tabby'
 
   -- COC
   -- TODO: check how to use node >= 14 only with this plugin
