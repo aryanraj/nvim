@@ -79,6 +79,12 @@ return require('packer').startup(function(use)
     }
   }
 
+  -- Trouble for pretty showing disgnostics
+  use {
+    'folke/trouble.nvim',
+    requires = { 'nvim-tree/nvim-web-devicons' },
+  }
+
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if packer_bootstrap then
