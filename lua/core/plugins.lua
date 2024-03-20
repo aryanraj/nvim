@@ -91,6 +91,12 @@ return require('packer').startup(function(use)
     requires = { 'folke/twilight.nvim' },
   }
 
+  -- Comment
+  use {
+    'numToStr/Comment.nvim',
+    -- Because out of the box, tsx/jsx is not supported
+    requires = { 'JoosepAlviste/nvim-ts-context-commentstring' },
+  }
   -- MarkdownPreview
   use {
     'iamcco/markdown-preview.nvim',
