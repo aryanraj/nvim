@@ -8,7 +8,7 @@ require('mason').setup({
     }
 })
 require('mason-lspconfig').setup({
-  ensure_installed = { "lua_ls", "solargraph", "rust_analyzer", "pyright" }
+  ensure_installed = { "lua_ls", "solargraph", "rust_analyzer", "pyright", "tsserver" }
 })
 
 local on_attach = function(_, _)
@@ -78,6 +78,11 @@ require("lspconfig").rust_analyzer.setup {
 }
 
 require("lspconfig").pyright.setup {
+  on_attach = on_attach,
+  capabilities = capabilities
+}
+
+require("lspconfig").tsserver.setup {
   on_attach = on_attach,
   capabilities = capabilities
 }
