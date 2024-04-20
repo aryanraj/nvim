@@ -38,6 +38,12 @@ return require('packer').startup(function(use)
 
   -- Git extensions
   use 'tpope/vim-fugitive'
+  -- For :GBrowse support
+  use 'tpope/vim-rhubarb'
+  -- For :OpenBrowser command when netrw is disabled
+  -- As fugitive searches for these commands before falling back to netrw
+  -- https://github.com/tpope/vim-fugitive/blob/dac8e5c2d85926df92672bf2afb4fc48656d96c7/autoload/fugitive.vim#L7382-L7386
+  use 'tyru/open-browser.vim'
   use 'lewis6991/gitsigns.nvim'
 
   -- Github Copilot
