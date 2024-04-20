@@ -35,7 +35,10 @@ return require('packer').startup(function(use)
   use 'saadparwaiz1/cmp_luasnip'
   use 'rafamadriz/friendly-snippets'
   use 'mbbill/undotree'
+
+  -- Git extensions
   use 'tpope/vim-fugitive'
+  use 'lewis6991/gitsigns.nvim'
 
   -- Github Copilot
   -- use 'github/copilot.vim'
