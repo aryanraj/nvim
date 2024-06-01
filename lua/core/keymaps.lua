@@ -30,5 +30,7 @@ vim.keymap.set('n', '<leader>tj', '<C-w>t<C-w>J')
 vim.keymap.set('n', '<leader>tk', '<C-w>t<C-w>K')
 vim.keymap.set('n', '<leader>tl', '<C-w>t<C-w>L')
 
+-- Sync * register with + register
+vim.opt.clipboard = "unnamedplus"
 vim.keymap.set("x", "<leader>p", "\"_dP")
 
