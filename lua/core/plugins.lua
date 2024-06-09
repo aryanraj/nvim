@@ -54,6 +54,9 @@ return require('packer').startup(function(use)
   use 'tyru/open-browser.vim'
   use 'lewis6991/gitsigns.nvim'
 
+  -- Surround support
+  use 'tpope/vim-surround'
+
   -- Github Copilot
   -- use 'github/copilot.vim'
   use 'TabbyML/vim-tabby'
