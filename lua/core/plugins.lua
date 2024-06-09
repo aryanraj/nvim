@@ -26,6 +26,7 @@ return require('packer').startup(function(use)
   -- Syntax highlighting
   use 'nvim-treesitter/nvim-treesitter'
   use 'nvim-treesitter/playground'
+  use 'nvim-treesitter/nvim-treesitter-context'
   use({
     "nvim-treesitter/nvim-treesitter-textobjects",
     after = "nvim-treesitter",
