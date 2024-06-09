@@ -17,5 +17,7 @@ require('gitsigns').setup({
     end
 
     map('n', '<leader>hp', gitsigns.preview_hunk)
+    map('n', '<leader>hs', gitsigns.stage_hunk)
+    map('v', '<leader>hs', function() gitsigns.stage_hunk {vim.fn.line('.'), vim.fn.line('v')} end)
   end
 })

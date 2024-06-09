@@ -9,6 +9,7 @@ vim.opt.cursorline = true
 vim.opt.autoread = true
 vim.opt.scrolloff = 5
 vim.opt.colorcolumn = '80'
+vim.opt.signcolumn = 'auto:4'
 
 -- set show numbers
 vim.wo.number = true
