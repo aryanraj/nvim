@@ -22,11 +22,18 @@ return require('packer').startup(function(use)
   use 'nvim-tree/nvim-web-devicons'
   -- Better command info at bottom
   use 'nvim-lualine/lualine.nvim'
+
   -- Syntax highlighting
   use 'nvim-treesitter/nvim-treesitter'
   use 'nvim-treesitter/playground'
+  use({
+    "nvim-treesitter/nvim-treesitter-textobjects",
+    after = "nvim-treesitter",
+    requires = "nvim-treesitter/nvim-treesitter",
+  })
   -- Syntax highlighting for rspec
   -- use 'keith/rspec.vim'
+
   -- Auto-completion
   use 'hrsh7th/nvim-cmp'
   use 'hrsh7th/cmp-nvim-lsp'
