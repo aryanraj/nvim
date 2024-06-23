@@ -65,6 +65,9 @@ return require('packer').startup(function(use)
   -- TODO: check how to use node >= 14 only with this plugin
   -- use {'neoclide/coc.nvim', branch = 'release'}
 
+  -- TODO comments
+  use { 'folke/todo-comments.nvim', requires = 'nvim-lua/plenary.nvim' }
+
   -- Code Folding
   use {'kevinhwang91/nvim-ufo', requires = 'kevinhwang91/promise-async'}
 
