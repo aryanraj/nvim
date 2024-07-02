@@ -1,3 +1,4 @@
+local util = require 'lspconfig.util'
 require('mason').setup({
     ui = {
         icons = {
@@ -73,4 +74,7 @@ require("lspconfig").ruby_lsp.setup {
   on_attach = on_attach,
   capabilities = capabilities,
   cmd = { os.getenv("HOME") .. "/.rbenv/shims/ruby-lsp" },
+  -- Sometimes with engines, there can be multiple Gemfile but root should be 
+  -- with .git
+  root_dir = util.root_pattern('.git'),
 }
