@@ -9,7 +9,7 @@ require('mason').setup({
     }
 })
 require('mason-lspconfig').setup({
-  ensure_installed = { "lua_ls", "rust_analyzer", "pyright", "tsserver", "ruby_lsp" }
+  ensure_installed = { "lua_ls", "rust_analyzer", "pyright", "tsserver", "ruby_lsp", "marksman" }
 })
 
 local on_attach = function(_, _)
@@ -77,4 +77,9 @@ require("lspconfig").ruby_lsp.setup {
   -- Sometimes with engines, there can be multiple Gemfile but root should be 
   -- with .git
   root_dir = util.root_pattern('.git'),
+}
+
+require("lspconfig").marksman.setup {
+  on_attach = on_attach,
+  capabilities = capabilities
 }
