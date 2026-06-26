@@ -31,3 +31,6 @@ cmp.setup.filetype({ "mysql" }, {
     { name = "buffer" },
   },
 })
+
+-- Rails snippets
+require'luasnip'.filetype_extend("ruby", {"rails"})

@@ -25,6 +25,12 @@ vim.keymap.set('n', '<leader>h', ':nohlsearch<CR>')
 vim.keymap.set('n', '<leader>s', ':split<CR>')
 vim.keymap.set('n', '<leader>v', ':vsplit<CR>')
 
+-- switch window
+vim.keymap.set('n', '<C-h>', '<C-w>h')
+vim.keymap.set('n', '<C-j>', '<C-w>j')
+vim.keymap.set('n', '<C-k>', '<C-w>k')
+vim.keymap.set('n', '<C-l>', '<C-w>l')
+
 -- move topleft window to different positions
 vim.keymap.set('n', '<leader>th', '<C-w>t<C-w>H')
 vim.keymap.set('n', '<leader>tj', '<C-w>t<C-w>J')
